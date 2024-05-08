@@ -15,9 +15,9 @@ const products = {
             "type": "droid",
             "class": 2,
             "title": i18n.getString("title", "1"),
-            "price": 3000,
+            "price": 59.95,
             "qty": 0,
-            "imageURL": "img/3PO.png",
+            "imageURL": "img/3PO.jpg",
             "desc": i18n.getString("desc", "1")
         },
         {
@@ -27,7 +27,7 @@ const products = {
             "title": i18n.getString("title", "2"),
             "price": 800,
             "qty": 0,
-            "imageURL": "img/DUM-series.png",
+            "imageURL": "img/DUM-series.jpg",
             "desc": i18n.getString("desc", "2")
         },
         {
@@ -37,7 +37,7 @@ const products = {
             "title": i18n.getString("title", "3"),
             "price": 4300,
             "qty": 0,
-            "imageURL": "img/2-1B.png",
+            "imageURL": "img/2-1B.jpg",
             "desc": i18n.getString("desc", "3")
         },
         {
@@ -46,16 +46,16 @@ const products = {
             "title": i18n.getString("title", "4"),
             "price": 4500,
             "qty": 0,
-            "imageURL": "img/IG-88.png",
+            "imageURL": "img/IG-88.jpg",
             "desc": i18n.getString("desc", "4")
         },
         {
             "productID" : 5,
             "type": "vehicle",
             "title": i18n.getString("title", "5"),
-            "price": 1000000,
+            "price": 49.99,
             "qty": 0,
-            "imageURL": "img/Sphyrna_Corevette.png",
+            "imageURL": "img/Sphyrna_Corevette.jpg",
             "desc": i18n.getString("desc", "5")
         },
         {
@@ -64,25 +64,25 @@ const products = {
             "title": i18n.getString("title", "6"),
             "price": 5210,
             "qty": 0,
-            "imageURL": "img/G2.png",
+            "imageURL": "img/G2.jpg",
             "desc": i18n.getString("desc", "6")
         },
         {
             "productID" : 7,
             "type": "vehicle",
             "title": i18n.getString("title", "7"),
-            "price": 1500000,
+            "price": 19.99,
             "qty": 0,
-            "imageURL": "img/CR90.png",
+            "imageURL": "img/CR90.jpg",
             "desc": i18n.getString("desc", "7")
         },
         {
             "productID" : 8,
             "type": "vehicle",
             "title": i18n.getString("title", "8"),
-            "price": 8000,
+            "price": 39.99,
             "qty": 0,
-            "imageURL": "img/74-Z.png",
+            "imageURL": "img/74-Z.jpg",
             "desc": i18n.getString("desc", "8")
         },
         /*
