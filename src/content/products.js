@@ -25,7 +25,7 @@ const products = {
             "type": "droid",
             "class": 4,
             "title": i18n.getString("title", "2"),
-            "price": 800,
+            "price": 29.99,
             "qty": 0,
             "imageURL": "img/DUM-series.jpg",
             "desc": i18n.getString("desc", "2")
@@ -35,7 +35,7 @@ const products = {
             "type": "droid",
             "class": 1,
             "title": i18n.getString("title", "3"),
-            "price": 4300,
+            "price": 129,
             "qty": 0,
             "imageURL": "img/2-1B.jpg",
             "desc": i18n.getString("desc", "3")
@@ -44,7 +44,7 @@ const products = {
             "productID" : 4,
             "type": "droid",
             "title": i18n.getString("title", "4"),
-            "price": 4500,
+            "price": 11.99,
             "qty": 0,
             "imageURL": "img/IG-88.jpg",
             "desc": i18n.getString("desc", "4")
@@ -62,7 +62,7 @@ const products = {
             "productID" : 6,
             "type": "droid",
             "title": i18n.getString("title", "6"),
-            "price": 5210,
+            "price": 59,
             "qty": 0,
             "imageURL": "img/G2.jpg",
             "desc": i18n.getString("desc", "6")
