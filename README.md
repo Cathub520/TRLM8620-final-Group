@@ -1,2 +1,3 @@
 # TRLM8620-Final
-This is the final project for TRLM8620. Students will clone this repo to create their own shopping website by switching the content, and localize the website.
+This is our final project for TRLM8620. Group member: Minghui Gao, Yihan Wei, Tianxiao Jia, Jianhui Wang, Jiawen Chen. Our e-commerce web app is a online shopping mall for a well-known video-game studio called Naughty Dog, who has paved their way with their wonderful work like The Last of Us 1&2 and Uncharted 1~4. This e-commerce web app have basically 3 pages on their homepage: Home, Games and Merch. And we are going to internationalize and localize this web app we created into simplified Chinese, in order to bring this charming studio and their fantastic work to more gamers around the world.
+Link to Plan and reflection: https://www.canva.com/design/DAGEkRCS1KU/vINM31XepqhvXmMyKMVPxg/edit?utm_content=DAGEkRCS1KU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
