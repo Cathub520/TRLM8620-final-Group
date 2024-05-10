@@ -12,8 +12,13 @@ const i18n = {
                 'Content-Type': 'application/json'
             }
         };
-        try {
-            const response = await fetch(`./content/${newLocale}/strings.json`, options)
+        try {  
+            let response;  
+            if (newLocale === "zh-CN") {  
+                response = await fetch(`./content/zh-CN/strings.json`, options);  
+            } else {  
+                response = await fetch(`./content/${newLocale}/strings.json`, options);  
+            }  
             stringsJSON = await response.json();
         } catch (err) {
             console.log('Error getting strings', err);
@@ -45,7 +50,10 @@ const i18n = {
     //format date accoring to locale
     formatDate: (date) => {
         var options = { weekday: 'short', year: 'numeric', month: 'short', day: 'numeric' };
-        return new Intl.DateTimeFormat([locale, 'en-US'], options).format(date); //$NON-NLS-L$
+        if (locale === 'zh-CN') {  //Chinese date format
+            options = { year: 'numeric', month: 'numeric', day: 'numeric' };  
+        }  
+        return new Intl.DateTimeFormat(locale, options).format(date);  //$NON-NLS-L$
     }
 }
 

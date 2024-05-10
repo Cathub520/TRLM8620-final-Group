@@ -23,7 +23,6 @@ let Navbar = {
         let localeLabel = i18n.getString("LocaleSelector", "localeLabel");
         let localeEN = i18n.getString("LocaleSelector", "localeEN");
         let localeZH = i18n.getString("LocaleSelector", "localeZH");
-        let localeFR = i18n.getString("LocaleSelector", "localeFR");
 
 
         //view is solely for HTML markup, contains no static text

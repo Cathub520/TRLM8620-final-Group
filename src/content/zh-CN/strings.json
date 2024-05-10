@@ -1,0 +1,113 @@
+{
+    "title": {
+        "1": "火萤卫衣",
+        "2": "火萤珐琅钥匙链",
+        "3": "神秘海域指南针",
+        "4": "珍藏版徽章-四件套",
+        "5": "神秘海域：盗贼传奇合集",
+        "6": "穿装甲的循声者模型",
+        "7": "美国末日 第一部",
+        "8": "美国末日 第二部",
+        "9": "美国末日 艾莉小鸭子",
+        "10": "美国末日马克杯",
+        "11": "美国末日抱枕",
+        "12": "艾莉的背包",
+        "13": "小怪兽钥匙链"
+    },
+    "desc": {
+        "1": "这款舒适的卫衣可以让你随时保持温暖，卫衣背后印有《美国末日》第一部的标识，左胸前绣有火萤图标！",
+        "2": "火萤钥匙链。证明你在末日中生存的意愿。",
+        "3": "一款装在铰链木质礼品盒中的卡式指南针，指南针上有指向北方的鸢尾标志。",
+        "4": "四件套压模徽章，装在一个礼品盒中。三枚徽章直径为 1.25 毫米，一枚直径为 2 毫米。标准立柱，带蝴蝶扣。",
+        "5": "加入内森·德雷克和克洛伊·弗雷泽，在全球各地与战争贩子和雇佣兵对抗。与昔日的同事团结起来，揭开被遗忘的历史，解决内心最深处的恐惧，打造自己的传奇。",
+        "6": "Naughty Dog和Dark Horse隆重推出全新'穿装甲的循声者'PVC模型，这是《美国末日》第二部现有模型阵容的最新成员。这款豪华收藏品将栩栩如生地展示受真菌感染的可怕生物——穿装甲的循声者，它正抽搐着准备发动攻击。",
+        "7": "乔尔的任务是护送年轻的艾莉穿越末世后的美国，抵御受真菌变异菌株感染的食人怪物。",
+        "8": "游戏主要体现了两位主角在末日美国中命运的纠葛： 艾莉为一桩谋杀案复仇，艾比则是一名士兵，她卷入了民兵与宗教邪教之间的冲突。",
+        "9": "可爱的艾莉小鸭子！让她在洗澡时保护你！",
+        "10": "这款黑色马克杯的魅力远不止于此。 当您倒入一杯热饮后，一切都将揭晓。 火萤的标志，还有用白色字体写着的标志性台词：‘当你迷失在黑暗中时，请寻找光明’。",
+        "11": "一颗抱枕。",
+        "12": "给所有美国末日迷、收藏家、coser的完美套装！",
+        "13": "这款可爱的毛绒钥匙扣完美还原了艾莉背包中的紫色怪物毛绒玩具。无论你走到哪里，都是行走的游戏史。"
+    },
+    "Navbar": {
+        "searchPlaceholder": "你想了解什么？",  
+        "searchButtonLabel": "搜索商品",  
+        "logoAlt": "样本商标",  
+        "searchIconAlt": "徽标",  
+        "greetingText": "玩家，你好！",  
+        "historyLink": "历史订单",  
+        "arrowAlt": "下拉箭头",  
+        "cartAlt": "显示购物车",  
+        "navLinkHome": "主页",  
+        "navLinkDroids": "商品",  
+        "navLinkVehicles": "游戏" 
+    },
+    "Home": {
+        "welcomeSubtitle": "探索神秘之境, 求生亡灵之地",
+        "symbolAlt": "帝国信用货币符号"
+    },
+    
+    "Checkout": {
+        "checkoutTitle": "结账",  
+        "shipSectionLabel": "运送信息",  
+        "firstNameLabel": "名字",  
+        "lastNameLabel": "姓氏",  
+        "coordinatesLabel": "坐标",  
+        "coordinatesHolder": "0,0,0",  
+        "sectorLabel": "区域",  
+        "methodLabel": "运送方式",  
+        "shipLightspeed": "极速运输",  
+        "shipOvernight": "隔夜运输",  
+        "shipStandard": "标准运输",  
+        "paySectionLabel": "付款",  
+        "payNameLabel": "卡上姓名",  
+        "payNameHolder": "姓名",  
+        "accountLabel": "信用卡号码",  
+        "accountHolder": "1234567-9876-00",  
+        "securityLabel": "安全码",  
+        "securityHolder": "123456",  
+        "expDateLabel": "到期日期",  
+        "cartTitle": "购物车",  
+        "deleteAlt": "从购物车中移除物品",  
+        "totalLabel": "总计：",  
+        "orderLabel": "下单",  
+        "termsStatement": "我已阅读并同意条款和条件",  
+        "termsLink": "（查看）",  
+        "successMessage": "订单已成功下达！",  
+        "noItemMessage": "添加商品到购物车以结账。"
+    },
+    "ProductShow": {
+        "qtyLabel": "数量：",
+        "addToCartLabel": "添加至购物车"
+    },
+    "Cart": {  
+        "cartTitle": "购物车",  
+        "noItemMsg": "购物车内暂无商品",  
+        "deleteAlt": "从购物车中删除商品",  
+        "totalTitle": "总计: ",  
+        "checkoutLabel": "结账",  
+        "closeAlt": "关闭购物车"  
+    },  
+    "OrderHistory": {  
+        "historyTitle": "订单历史",  
+        "dateHeading": "日期",  
+        "numberHeading": "订单编号",  
+        "totalHeading": "总计",  
+        "statusHeading": "状态"    
+    },
+    "Error404": {
+        "errorMessage": "404错误：页面未找到。"
+    },
+    "Bottombar": {
+        "menuAlt": "打开侧边栏菜单"
+    },
+    "LocaleSelector": {
+        "localeLabel": "语言：",
+        "localeEN": "英语 - 美国",
+        "localeZH": "中文 - 中国"
+    },
+    "status_processing": "处理中",
+    "status_shipped": "已发货",
+    "status_delivered": "已送达",
+    "Special": "特别的"
+}
