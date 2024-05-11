@@ -53,6 +53,9 @@ const i18n = {
         if (locale === 'zh-CN') {  //Chinese date format
             options = { year: 'numeric', month: 'numeric', day: 'numeric' };  
         }  
+        if (locale === 'en-US') {  //American date format
+            options = { month: 'numeric', day: 'numeric', year: 'numeric'};  
+        }  
         return new Intl.DateTimeFormat(locale, options).format(date);  //$NON-NLS-L$
     }
 }
@@ -75,10 +78,6 @@ var convertCurrency = (price) => {
     }
 }
 
-// 根据locale获取对应的货币代码
-var getCurrencyCode = (locale) => {
-    return currencyMap[locale];
-};
 
 
 export default i18n;
