@@ -53,6 +53,9 @@ const i18n = {
         if (locale === 'zh-CN') {  //Chinese date format
             options = { year: 'numeric', month: 'numeric', day: 'numeric' };  
         }  
+        if (locale === 'en-US') {  //American date format
+            options = { month: 'numeric', day: 'numeric', year: 'numeric'};  
+        }  
         return new Intl.DateTimeFormat(locale, options).format(date);  //$NON-NLS-L$
     }
 }
