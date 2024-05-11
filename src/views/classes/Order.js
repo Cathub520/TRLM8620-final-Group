@@ -32,17 +32,21 @@ class Order {
         //calculate diff
         let oneDay = 24*60*60*1000; // hours*minutes*seconds*milliseconds
         let now = new Date(); //$NON-NLS-L$
+        let statusProcessing = i18n.getString("OrderStatus", "statusProcessing");
+        let statusShipped = i18n.getString("OrderStatus", "statusShipped");
+        let statusDelivered = i18n.getString("OrderStatus", "statusDelivered");
         var diffDays = Math.floor(Math.abs((this.orderDate.getTime() - now.getTime())/(oneDay))); //$NON-NLS-L$
 
         if(diffDays < 2) {
-            return "Processing";
+            return statusProcessing;
         }
         if(diffDays < 4) {
-            return "Shipped"
+            return statusShipped;
         }
         else{
-            return "Delivered";
+            return statusDelivered;
         }
+        
     }
 
 }

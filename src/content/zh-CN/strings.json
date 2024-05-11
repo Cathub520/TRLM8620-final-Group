@@ -32,7 +32,7 @@
     "Navbar": {
         "searchPlaceholder": "你想了解什么？",  
         "searchButtonLabel": "搜索商品",  
-        "logoAlt": "样本商标",  
+        "logoAlt": "商标",  
         "searchIconAlt": "徽标",  
         "greetingText": "玩家，你好！",  
         "historyLink": "历史订单",  
@@ -43,6 +43,7 @@
         "navLinkVehicles": "游戏" 
     },
     "Home": {
+        "welcomeTitle": "欢迎来到顽皮狗！",
         "welcomeSubtitle": "探索神秘之境, 求生亡灵之地",
         "symbolAlt": "帝国信用货币符号"
     },
@@ -95,6 +96,11 @@
         "totalHeading": "总计",  
         "statusHeading": "状态"    
     },
+    "OrderStatus": {
+        "statusProcessing": "处理中",
+        "statusShipped": "已发货",
+        "statusDelivered": "已送达"
+    },
     "Error404": {
         "errorMessage": "404错误：页面未找到。"
     },
@@ -103,11 +109,8 @@
     },
     "LocaleSelector": {
         "localeLabel": "语言：",
-        "localeEN": "英语 - 美国",
+        "localeEN": "English - US",
         "localeZH": "中文 - 中国"
     },
-    "status_processing": "处理中",
-    "status_shipped": "已发货",
-    "status_delivered": "已送达",
     "Special": "特别的"
 }

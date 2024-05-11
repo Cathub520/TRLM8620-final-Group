@@ -30,13 +30,13 @@ let OrderHistory = {
             </div>`;
 
         orderHistory.forEach((order, key) => {
+            let formattedTotal = i18n.formatCurrency(order.total);
             view += `
                 <article class="orderItem">
                     <h3>${order.getOrderDate()}</h3>
                     <h3>${order.orderNumber}</h3>
                     <div class="gridPrice">
-                        $
-                        ${formatCurrencyWithCommas(order.total)}
+                        ${formattedTotal}
                     </div>
                     <h3>${order.getOrderStatus()}</h3>
                 </article>`

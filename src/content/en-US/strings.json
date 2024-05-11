@@ -43,6 +43,7 @@
         "navLinkVehicles": "GAMES"
     },
     "Home": {
+        "welcomeTitle": "Welcome to Naughty Dog!",
         "welcomeSubtitle": "Charting the Uncharted, Surviving the Undead",
         "symbolAlt": "Imperial Credit currency symbol"
     },
@@ -95,6 +96,11 @@
         "totalHeading": "Total",
         "statusHeading": "Status"
     },
+    "OrderStatus": {
+        "statusProcessing": "Processing",
+        "statusShipped": "Shipped",
+        "statusDelivered": "Delivered"
+    },
     "Error404": {
         "errorMessage": "404 Error: Page not found."
     },
@@ -104,7 +110,7 @@
     "LocaleSelector": {
         "localeLabel": "Locale: ",
         "localeEN": "English - US",
-        "localeZH": "Chinese - China"
+        "localeZH": "中文 - 中国"
     },
     "Special": "Special"
 }
