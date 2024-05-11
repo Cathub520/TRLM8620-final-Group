@@ -101,6 +101,11 @@
         "statusShipped": "已发货",
         "statusDelivered": "已送达"
     },
+    "Browse": {
+        "title":"全部",
+        "merch":"周边",
+        "games":"游戏"
+    },
     "Error404": {
         "errorMessage": "404错误：页面未找到。"
     },

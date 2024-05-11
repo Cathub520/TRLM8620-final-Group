@@ -94,12 +94,17 @@
         "dateHeading": "Date",
         "numberHeading": "Order Number",
         "totalHeading": "Total",
-        "statusHeading": "Status"
+        "statusHeading": "Statusdroids"
     },
     "OrderStatus": {
         "statusProcessing": "Processing",
         "statusShipped": "Shipped",
         "statusDelivered": "Delivered"
+    },
+    "Browse": {
+        "title":"All ",
+        "merch":"merch",
+        "games":"games"
     },
     "Error404": {
         "errorMessage": "404 Error: Page not found."
