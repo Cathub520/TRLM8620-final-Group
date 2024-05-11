@@ -78,10 +78,6 @@ var convertCurrency = (price) => {
     }
 }
 
-// 根据locale获取对应的货币代码
-var getCurrencyCode = (locale) => {
-    return currencyMap[locale];
-};
 
 
 export default i18n;
