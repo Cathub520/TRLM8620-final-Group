@@ -94,7 +94,7 @@
         "dateHeading": "Date",
         "numberHeading": "Order Number",
         "totalHeading": "Total",
-        "statusHeading": "Statusdroids"
+        "statusHeading": "Status"
     },
     "OrderStatus": {
         "statusProcessing": "Processing",
